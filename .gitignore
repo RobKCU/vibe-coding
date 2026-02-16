@@ -1,0 +1,5 @@
+.env
+.venv/
+__pychache__/
+node_modules/
+.DS_Store
