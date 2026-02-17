@@ -1,10 +1,5 @@
-from openai import OpenAI
+from movie_greeting import run
 
-client = OpenAI()
 
-resp = client.responses.create(
-    model="gpt-5.2",
-    input="Give me a one-sentence noir detective greeting.",
-)
-
-print(resp.output_text)
+if __name__ == "__main__":
+    run()
