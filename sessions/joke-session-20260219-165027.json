@@ -1,0 +1,55 @@
+{
+  "started_at": "2026-02-19T16:45:29",
+  "model": "gpt-5.2",
+  "voice": "jaded",
+  "absurdity": "very recommendation I\u2019ve ever written is like I\u2019m writing to god for someone to get into heaven.",
+  "steps": [
+    {
+      "name": "Point",
+      "prompt": "Absurdity seed: very recommendation I\u2019ve ever written is like I\u2019m writing to god for someone to get into heaven.\nVoice: jaded\nTask: State the point plainly in one sentence.\nReturn a JSON array of 3 short options.",
+      "options": [
+        "Every recommendation I write sounds like I\u2019m pleading with God to let someone into heaven.",
+        "I keep writing recommendations like they\u2019re prayers for somebody\u2019s salvation.",
+        "Somehow my recommendations turn into divine petitions for admission to paradise."
+      ],
+      "choice": "Every recommendation I write sounds like I\u2019m pleading with God to let someone into heaven.",
+      "notes": "",
+      "regen_count": 0
+    },
+    {
+      "name": "Premise",
+      "prompt": "Absurdity seed: very recommendation I\u2019ve ever written is like I\u2019m writing to god for someone to get into heaven.\nPlain point: Every recommendation I write sounds like I\u2019m pleading with God to let someone into heaven.\nVoice: jaded\nTask: Propose a humorous premise that leads the audience to the point.\nReturn a JSON array of 3 options.",
+      "options": [
+        "{'premise': 'Recommendations are actually a secret afterlife admissions form, and I\u2019m stuck as the burnt-out middle manager of Heaven\u2019s front desk trying to upsell a stranger\u2019s \u201cleadership\u201d into eternal salvation.'}",
+        "{'premise': 'I write every recommendation like it\u2019s a prayer in a crisis\u2014lighting a candle, bargaining with the universe, and promising I\u2019ll be a better person if God just lets this guy into the MBA program.'}",
+        "{'premise': 'The recommendation portal is basically a confessional booth: I slide in a paragraph, whisper their \u2018strengths,\u2019 and hope an exhausted deity stamps APPROVED before asking why I\u2019m lying again.'}"
+      ],
+      "choice": "{'premise': 'The recommendation portal is basically a confessional booth: I slide in a paragraph, whisper their \u2018strengths,\u2019 and hope an exhausted deity stamps APPROVED before asking why I\u2019m lying again.'}",
+      "notes": "",
+      "regen_count": 0
+    },
+    {
+      "name": "Structure",
+      "prompt": "Absurdity seed: very recommendation I\u2019ve ever written is like I\u2019m writing to god for someone to get into heaven.\nPremise: {'premise': 'The recommendation portal is basically a confessional booth: I slide in a paragraph, whisper their \u2018strengths,\u2019 and hope an exhausted deity stamps APPROVED before asking why I\u2019m lying again.'}\nVoice: jaded\nAvailable structures:\n- Rule of Three: List two normal items, then a surprising third to land the punch.\n- Misdirection: Set up one expectation, then reveal a different angle at the end.\n- Analogy: Compare the subject to a vivid, unexpected parallel.\n- Definition: Define the subject in a precise but absurd way.\n- Complaint: Adopt a frustrated tone about a specific absurd detail.\n- List: Stack short beats that escalate the absurdity.\nTask: Suggest 3 structure choices from the list that best fit.\nReturn a JSON array of the structure names only.",
+      "options": [
+        "Analogy",
+        "Complaint",
+        "Misdirection"
+      ],
+      "choice": "Misdirection",
+      "notes": "",
+      "regen_count": 0
+    },
+    {
+      "name": "Draft",
+      "prompt": "Absurdity seed: very recommendation I\u2019ve ever written is like I\u2019m writing to god for someone to get into heaven.\nStructure: Misdirection\nVoice: jaded\nTask: Write a first-draft joke using the structure.\nReturn a JSON array of 3 draft jokes.",
+      "options": [
+        "Every recommendation letter I write sounds like I\u2019m petitioning God. I start with, \u201cTo whom it may concern,\u201d and then it\u2019s basically, \u201cDear Almighty, please let Jordan into the kingdom of USC Film School.\""
+      ],
+      "choice": "Every recommendation letter I write sounds like I\u2019m petitioning God. I start with, \u201cTo whom it may concern,\u201d and then it\u2019s basically, \u201cDear Almighty, please let Jordan into the kingdom of USC Film School.\"",
+      "notes": "",
+      "regen_count": 0
+    }
+  ],
+  "final_joke": null
+}

@@ -1,0 +1,81 @@
+{
+  "started_at": "2026-02-19T16:28:34",
+  "model": "gpt-5.2",
+  "voice": "neutral",
+  "absurdity": "The sport curling is basically slow-motion billiards",
+  "steps": [
+    {
+      "name": "Point",
+      "prompt": "Absurdity seed: The sport curling is basically slow-motion billiards\nVoice: neutral\nTask: State the point plainly in one sentence.\nReturn a JSON array of 3 short options.",
+      "options": [
+        "Curling is basically billiards played in slow motion on ice.",
+        "Curling feels like billiards, but everyone\u2019s sweeping and nothing moves fast.",
+        "Curling is like billiards where the balls are rocks and the action is deliberately slow."
+      ],
+      "choice": "Curling is basically billiards played in slow motion on ice.",
+      "notes": "",
+      "regen_count": 1
+    },
+    {
+      "name": "Premise",
+      "prompt": "Absurdity seed: The sport curling is basically slow-motion billiards\nPlain point: Curling is basically billiards played in slow motion on ice.\nVoice: neutral\nTask: Propose a humorous premise that leads the audience to the point.\nReturn a JSON array of 3 options.",
+      "options": [
+        "Curling is what happens when a billiards league gets relocated to an ice rink and everyone agrees to keep playing, just\u2026 carefully, quietly, and at one mile per hour.",
+        "Curling is billiards for people who love the strategy of pool but think the cue stick is too flashy\u2014so they swap it for a broom and let the shot take three business days to arrive.",
+        "Curling is the slow-motion replay of a billiards game, except nobody hit pause\u2014this is just the actual speed and everyone\u2019s politely sweeping like that helps physics feel supported."
+      ],
+      "choice": "Curling is the slow-motion replay of a billiards game, except nobody hit pause\u2014this is just the actual speed and everyone\u2019s politely sweeping like that helps physics feel supported.",
+      "notes": "",
+      "regen_count": 2
+    },
+    {
+      "name": "Structure",
+      "prompt": "Absurdity seed: The sport curling is basically slow-motion billiards\nPremise: Curling is the slow-motion replay of a billiards game, except nobody hit pause\u2014this is just the actual speed and everyone\u2019s politely sweeping like that helps physics feel supported.\nVoice: neutral\nAvailable structures:\n- Rule of Three: List two normal items, then a surprising third to land the punch.\n- Misdirection: Set up one expectation, then reveal a different angle at the end.\n- Analogy: Compare the subject to a vivid, unexpected parallel.\n- Definition: Define the subject in a precise but absurd way.\n- Complaint: Adopt a frustrated tone about a specific absurd detail.\n- List: Stack short beats that escalate the absurdity.\nTask: Suggest 3 structure choices from the list that best fit.\nReturn a JSON array of the structure names only.",
+      "options": [
+        "Analogy",
+        "Definition",
+        "Misdirection"
+      ],
+      "choice": "Definition",
+      "notes": "",
+      "regen_count": 0
+    },
+    {
+      "name": "Draft",
+      "prompt": "Absurdity seed: The sport curling is basically slow-motion billiards\nStructure: Definition\nVoice: neutral\nTask: Write a first-draft joke using the structure.\nReturn a JSON array of 3 draft jokes.",
+      "options": [
+        "Curling is just billiards for people who think running is a character flaw: you take one careful shot, then spend the next minute sweeping like the floor is judging you.",
+        "Curling: the slow-motion version of billiards where the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping in front of it.",
+        "Curling is basically billiards, except instead of sinking balls fast, you politely escort a stone across the ice while your teammates frantically try to bribe physics with brooms."
+      ],
+      "choice": "Curling: the slow-motion version of billiards where the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping in front of it.",
+      "notes": "",
+      "regen_count": 0
+    },
+    {
+      "name": "Twist",
+      "prompt": "Draft joke: Curling: the slow-motion version of billiards where the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping in front of it.\nVoice: neutral\nTask: Think oppositely and propose a twist that adds another layer.\nReturn a JSON array of 3 revised jokes with twists.",
+      "options": [
+        "{'joke': 'Curling is the slow-motion version of billiards where the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping in front of it\u2014except the real trick shot is convincing everyone you meant to miss by six feet.'}",
+        "{'joke': 'Curling is billiards in slow motion: a 40-pound cue ball, and the cue is two teammates panic-mopping\u2014only it\u2019s backwards, because the people with the \u201csticks\u201d never hit anything; they just aggressively negotiate with the ice.'}",
+        "{'joke': 'Curling is the slow-motion version of billiards where the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping\u2014then the twist is the rock\u2019s the star, and the athletes are basically its hype men, sprinting ahead to make sure it has a clean path to greatness.'}"
+      ],
+      "choice": "{'joke': 'Curling is the slow-motion version of billiards where the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping\u2014then the twist is the rock\u2019s the star, and the athletes are basically its hype men, sprinting ahead to make sure it has a clean path to greatness.'}",
+      "notes": "",
+      "regen_count": 2
+    },
+    {
+      "name": "Tone",
+      "prompt": "Joke draft: {'joke': 'Curling is the slow-motion version of billiards where the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping\u2014then the twist is the rock\u2019s the star, and the athletes are basically its hype men, sprinting ahead to make sure it has a clean path to greatness.'}\nVoice: neutral\nTask: Adjust the emotional attitude to cue the audience properly.\nReturn a JSON array of 3 tone variants.",
+      "options": [
+        "{'tone': 'dry, matter-of-fact', 'joke': 'Curling is basically slow-motion billiards, except the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping. And the twist is the rock\u2019s the star\u2014everyone else is just sprinting ahead to make sure it glides into greatness.'}",
+        "{'tone': 'warm, appreciative', 'joke': 'Curling is like slow-motion billiards, except the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping. The best part is the twist: the rock\u2019s the celebrity, and the athletes are its very dedicated hype team, running ahead to give it the cleanest path to glory.'}",
+        "{'tone': 'playfully skeptical, lightly teasing', 'joke': 'Curling is the slow-motion version of billiards\u2014except the cue ball is a 40-pound rock and the pool cue is two people panic-mopping like their rent depends on it. Twist: the rock\u2019s the star, and the athletes are basically its hype men, sprinting ahead to keep its path clear for success.'}"
+      ],
+      "choice": "{'tone': 'dry, matter-of-fact', 'joke': 'Curling is basically slow-motion billiards, except the cue ball is a 40-pound rock and the pool cue is two friends panic-mopping. And the twist is the rock\u2019s the star\u2014everyone else is just sprinting ahead to make sure it glides into greatness.'}",
+      "notes": "",
+      "regen_count": 0
+    }
+  ],
+  "final_joke": null
+}

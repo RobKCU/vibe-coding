@@ -1,0 +1,57 @@
+{
+  "started_at": "2026-02-19T16:37:06",
+  "model": "gpt-5.2",
+  "voice": "jaded",
+  "absurdity": "Fascism is what happens when civil war doesn't",
+  "steps": [
+    {
+      "name": "Point",
+      "prompt": "Absurdity seed: Fascism is what happens when civil war doesn't\nVoice: jaded\nTask: State the point plainly in one sentence.\nReturn a JSON array of 3 short options.",
+      "options": [
+        "When a country avoids breaking into open war, it can still slide into authoritarian rule.",
+        "If the civil war never happens, the winning side can just call it \u201corder\u201d and make it permanent.",
+        "Skipping the civil war doesn\u2019t mean peace\u2014it can mean one faction quietly takes over."
+      ],
+      "choice": "Skipping the civil war doesn\u2019t mean peace\u2014it can mean one faction quietly takes over.",
+      "notes": "",
+      "regen_count": 0
+    },
+    {
+      "name": "Premise",
+      "prompt": "Absurdity seed: Fascism is what happens when civil war doesn't\nPlain point: Skipping the civil war doesn\u2019t mean peace\u2014it can mean one faction quietly takes over.\nVoice: jaded\nTask: Propose a humorous premise that leads the audience to the point.\nReturn a JSON array of 3 options.",
+      "options": [
+        "{'premise': 'Society treats political conflict like a customer-service complaint: instead of a messy fight, everyone agrees to \"let management handle it,\" and management turns out to be one guy who keeps the suggestion box and the police.'}",
+        "{'premise': 'A country brags it\u2019s \"too civilized\" for civil war, so it picks the clean, modern alternative: a hostile corporate merger where one side acquires the other, rebrands it, and calls the layoffs \"national unity.\"'}",
+        "{'premise': 'People are so conflict-avoidant they choose the \"quiet option\" in the settings menu: no civil war, just a silent patch update where the rules change overnight and the new Terms of Service say you\u2019re not allowed to disagree.'}"
+      ],
+      "choice": "{'premise': 'People are so conflict-avoidant they choose the \"quiet option\" in the settings menu: no civil war, just a silent patch update where the rules change overnight and the new Terms of Service say you\u2019re not allowed to disagree.'}",
+      "notes": "",
+      "regen_count": 0
+    },
+    {
+      "name": "Structure",
+      "prompt": "Absurdity seed: Fascism is what happens when civil war doesn't\nPremise: {'premise': 'People are so conflict-avoidant they choose the \"quiet option\" in the settings menu: no civil war, just a silent patch update where the rules change overnight and the new Terms of Service say you\u2019re not allowed to disagree.'}\nVoice: jaded\nAvailable structures:\n- Rule of Three: List two normal items, then a surprising third to land the punch.\n- Misdirection: Set up one expectation, then reveal a different angle at the end.\n- Analogy: Compare the subject to a vivid, unexpected parallel.\n- Definition: Define the subject in a precise but absurd way.\n- Complaint: Adopt a frustrated tone about a specific absurd detail.\n- List: Stack short beats that escalate the absurdity.\nTask: Suggest 3 structure choices from the list that best fit.\nReturn a JSON array of the structure names only.",
+      "options": [
+        "Analogy",
+        "Definition",
+        "Complaint"
+      ],
+      "choice": "Analogy",
+      "notes": "",
+      "regen_count": 0
+    },
+    {
+      "name": "Draft",
+      "prompt": "Absurdity seed: Fascism is what happens when civil war doesn't\nStructure: Analogy\nVoice: jaded\nTask: Write a first-draft joke using the structure.\nReturn a JSON array of 3 draft jokes.",
+      "options": [
+        "Fascism is like when a civil war gets canceled, but nobody tells the guys who already bought the uniforms\u2014so they just start policing the vibe instead.",
+        "Fascism is the political equivalent of a civil war that never happens: same rage, same flags, none of the resolution\u2014just a long, miserable hold music version of violence.",
+        "Fascism is like a civil war that doesn\u2019t break out, so all that pent-up conflict gets rerouted into paperwork, slogans, and some guy insisting your neighbor is an enemy because he looks \u201csuspiciously unpatriotic.\u201d"
+      ],
+      "choice": "Fascism is like when a civil war gets canceled, but nobody tells the guys who already bought the uniforms\u2014so they just start policing the vibe instead.",
+      "notes": "",
+      "regen_count": 0
+    }
+  ],
+  "final_joke": null
+}
